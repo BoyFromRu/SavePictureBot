@@ -4,7 +4,7 @@ import os
 
 db = sqlite3.connect('testDB.db', check_same_thread=False)
 cur = db.cursor()
-bot = telebot.TeleBot('5529782450:AAGaTfAwSzOuBsffIrQk2slEGL2dBDsTXSQ')
+bot = telebot.TeleBot('Token')
 
 def convert(filename):
     with open(filename, 'rb') as file:
